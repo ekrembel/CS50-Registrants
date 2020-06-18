@@ -1,0 +1,9 @@
+{% extends "layout.html" %}
+
+{% block body %}
+    <h1>Unregister</h1>
+    <form action="/delete", method="POST">
+        <input name="email" type="text" placeholder="Email Address">
+        <input type="submit">
+    </form>
+{% endblock %}
